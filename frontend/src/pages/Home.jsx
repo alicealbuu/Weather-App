@@ -71,7 +71,7 @@ const Home = () => {
         temp: response.data.main.temp.toFixed(),
         description: response.data.weather[0].description,
         max: response.data.main.temp_max.toFixed(),
-        min: response.data.main.temp_max.toFixed(),
+        min: response.data.main.temp_min.toFixed(),
         icon: icon,
         imgURL: imgURL,
         humidity: response.data.main.humidity,
